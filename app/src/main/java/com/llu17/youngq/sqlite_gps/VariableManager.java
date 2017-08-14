@@ -232,7 +232,7 @@ public class VariableManager {
                 }
                 return gpslist;
             } else {
-//                Log.e("i am here", "hello11111111");
+                Log.e("i am here", "hello11111111");
             }
         }
         catch(Exception e){
@@ -241,9 +241,9 @@ public class VariableManager {
         finally {
             c.close();
             db1.close();
-//            Log.e("i am here2", "hello11111111");
+            Log.e("i am here2", "hello11111111");
         }
-//        Log.e("i am here3", "hello11111111");
+        Log.e("i am here3", "hello11111111");
         return null;
     }
     private ArrayList<ACCELEROMETER> find_all_acce(){
@@ -268,7 +268,7 @@ public class VariableManager {
                 }
                 return accelist;
             } else {
-//                Log.e("i am here", "hello2222222222");
+                Log.e("i am here", "hello2222222222");
             }
         }
         catch(Exception e){
@@ -277,9 +277,9 @@ public class VariableManager {
         finally{
             c.close();
             db2.close();
-//            Log.e("i am here2", "hello2222222222");
+            Log.e("i am here2", "hello2222222222");
         }
-//        Log.e("i am here3", "hello2222222222");
+        Log.e("i am here3", "hello2222222222");
         return null;
     }
     private ArrayList<GYROSCOPE> find_all_gyro(){
@@ -303,7 +303,7 @@ public class VariableManager {
                 }
                 return gyrolist;
             } else {
-//                Log.e("i am here", "hello333333333");
+                Log.e("i am here", "hello333333333");
             }
         }
         catch(Exception e){
@@ -334,7 +334,7 @@ public class VariableManager {
                 }
                 return motionlist;
             } else {
-//                Log.e("i am here", "hello44444444");
+                Log.e("i am here", "hello44444444");
             }
         }
         catch(Exception e){
@@ -365,7 +365,7 @@ public class VariableManager {
                 }
                 return steplist;
             } else {
-//                Log.e("i am here", "hello55555555");
+                Log.e("i am here", "hello55555555");
             }
         }
         catch(Exception e){
@@ -396,7 +396,7 @@ public class VariableManager {
                 }
                 return batterylist;
             } else {
-//                Log.e("i am here", "hello66666666");
+                Log.e("i am here", "hello66666666");
             }
         }
         catch(Exception e){
@@ -427,7 +427,7 @@ public class VariableManager {
                 }
                 return wifilist;
             } else {
-//                Log.e("i am here", "hello77777777");
+                Log.e("i am here", "hello77777777");
             }
         }
         catch(Exception e){
@@ -461,7 +461,7 @@ public class VariableManager {
                 }
                 return magnelist;
             } else {
-//                Log.e("i am here", "hello88888888");
+                Log.e("i am here", "hello88888888");
             }
         }
         catch(Exception e){
@@ -470,9 +470,9 @@ public class VariableManager {
         finally{
             c.close();
             db8.close();
-//            Log.e("i am here2", "hello88888888");
+            Log.e("i am here2", "hello88888888");
         }
-//        Log.e("i am here3", "hello88888888");
+        Log.e("i am here3", "hello88888888");
         return null;
     }
 

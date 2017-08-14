@@ -143,12 +143,12 @@ public class UploadService extends Service implements VariableManager.Listener{
 
             if(currentNetworkInfo.isConnected()) {
                 wifistate[0] = 1;
-//                Log.e("WiFi is Connected", "!!!!!" + wifistate[0]);
+                Log.e("WiFi is Connected", "!!!!!" + wifistate[0]);
             }
 
             if(!currentNetworkInfo.isConnected()){
                 wifistate[0] = 0;
-//                Log.e("WiFi is not Connected","!!!!!"+wifistate[0]);
+                Log.e("WiFi is not Connected","!!!!!"+wifistate[0]);
             }
         }
     };
@@ -184,9 +184,9 @@ public class UploadService extends Service implements VariableManager.Listener{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            Log.e("lalala", "********");
+            Log.e("lalala", "********");
         } else {
-//            Log.e("hahahahahahahahahahahha","2222222222");
+            Log.e("hahahahahahahahahahahha","2222222222");
         }
         if (state[1]) {
             latch = new CountDownLatch(1);
@@ -217,9 +217,9 @@ public class UploadService extends Service implements VariableManager.Listener{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            Log.e("lalala", "********");
+            Log.e("lalala", "********");
         } else {
-//            Log.e("hahahahahahahahahahahha","2222222222");
+            Log.e("hahahahahahahahahahahha","2222222222");
         }
         if (state[2]) {
             latch = new CountDownLatch(1);
@@ -250,9 +250,9 @@ public class UploadService extends Service implements VariableManager.Listener{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            Log.e("lalala", "********");
+            Log.e("lalala", "********");
         } else {
-//            Log.e("hahahahahahahahahahahha","2222222222");
+            Log.e("hahahahahahahahahahahha","2222222222");
         }
         if (state[3]) {
             latch = new CountDownLatch(1);
@@ -283,9 +283,9 @@ public class UploadService extends Service implements VariableManager.Listener{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            Log.e("lalala", "********");
+            Log.e("lalala", "********");
         } else {
-//            Log.e("hahahahahahahahahahahha","2222222222");
+            Log.e("hahahahahahahahahahahha","2222222222");
         }
         if (state[4]) {
             latch = new CountDownLatch(1);
@@ -316,9 +316,9 @@ public class UploadService extends Service implements VariableManager.Listener{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            Log.e("lalala", "********");
+            Log.e("lalala", "********");
         } else {
-//            Log.e("hahahahahahahahahahahha","2222222222");
+            Log.e("hahahahahahahahahahahha","2222222222");
         }
         if (state[5]) {
             latch = new CountDownLatch(1);
@@ -349,9 +349,9 @@ public class UploadService extends Service implements VariableManager.Listener{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            Log.e("lalala", "********");
+            Log.e("lalala", "********");
         } else {
-//            Log.e("hahahahahahahahahahahha","2222222222");
+            Log.e("hahahahahahahahahahahha","2222222222");
         }
         if (state[6]) {
             latch = new CountDownLatch(1);
@@ -382,9 +382,9 @@ public class UploadService extends Service implements VariableManager.Listener{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            Log.e("lalala", "********");
+            Log.e("lalala", "********");
         } else {
-//            Log.e("hahahahahahahahahahahha","2222222222");
+            Log.e("hahahahahahahahahahahha","2222222222");
         }
         if (state[7]) {
             latch = new CountDownLatch(1);
@@ -415,9 +415,9 @@ public class UploadService extends Service implements VariableManager.Listener{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            Log.e("lalala", "********");
+            Log.e("lalala", "********");
         } else {
-//            Log.e("hahahahahahahahahahahha","2222222222");
+            Log.e("hahahahahahahahahahahha","2222222222");
         }
     }
 }

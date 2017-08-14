@@ -191,7 +191,7 @@ public class MainActivity extends AppCompatActivity  implements SharedPreference
         mHandler = new Handler(Looper.getMainLooper()) {
             @Override
             public void handleMessage(Message message) {
-//                Log.e("I am in handler","lalala");
+                Log.e("I am in handler","lalala");
                 if(message.arg1 == 1){
                     stopService();
                     breakService();
